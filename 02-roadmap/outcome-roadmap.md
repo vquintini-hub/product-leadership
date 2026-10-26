@@ -1,6 +1,8 @@
-# Fable: Now / Next / Later Roadmap
+# Outcome Roadmap and Trade-off Memo
 
-Valeria Quintini · Product Leadership Certification · Refined on 14 October, updated 15 October 2026 · Scenario: Fable (B2C)
+Fable (B2C) · Product Leadership Certification, Deliverable 2 · Valeria Quintini · Updated 26 October 2026
+
+Fable here is the course's fictional mental-wellness app. All scores and numbers are estimates.
 
 **The problem this quarter:** people feel better within 90 to 120 days and quietly stop using Fable.
 
@@ -26,6 +28,7 @@ Three bets, one per OKR, listed in the order they ship. Built from the Module 1 
 | A short maintenance practice track (#12, narrowed) | The weekly check-ins will show which practices people keep; build the track from that evidence. |
 | Gentle support when someone's patterns change | Needs months of reliable record data, plus clinical advisory review. |
 | Onboarding redesign (#1) | Plan Carefully on the matrix: high impact, medium effort. It feeds the post-day-90 group, but the maintenance path needs a baseline first. Q3. |
+| Extend the weekly check-in to the first 90 days | Second priority, next quarter. Designed with the Growth team, PM 1 and PM 3 once the version for users past day 90 has results. |
 | A maintenance plan at a lower price | Only once KR3 shows whether people downgrade, and once it fits the pricing model. |
 
 ## Later: bets, not commitments
@@ -46,10 +49,18 @@ Three bets, one per OKR, listed in the order they ship. Built from the Module 1 
 
 Accessibility (#10) and load time (#14) run as maintenance with a fixed share of capacity.
 
-## Prioritisation check (15 October)
+## Trade-off memo
 
-Scored with RICE, WSJF and a weighted scorecard, using assumed numbers. The check supports the Now column, keeps onboarding in Next and the daily streak out. It added the sequence and the thin first version of the record (now Bet 3), the largest job and the most likely to slip.
+**What we chose.** This quarter all three bets serve one group: premium users past day 90. That is where Fable loses the people most likely to pay.
 
-Also on 15 October: Hard No 3 changed from onboarding (#1) to Fable for Teams (#13), and onboarding moved to Plan Carefully. All Impact and Effort scores are estimates after the lab's reality check (double the effort, halve the impact).
+**What we gave up, and what it costs.**
 
-Round 3 review on 15 October: all three still read as bets and trace to one OKR each. Refined so every bet names the same users (premium users past day 90), and the Now table is reordered to ship order.
+- **Onboarding redesign.** 40% of new users drop off early, and that data is real. Waiting means fewer people reach day 90. We accept that cost because the maintenance path needs a baseline before we change who enters it. Onboarding is the first item in Next.
+- **The check-in for new users.** The Growth team wants it for conversion. It launches for users past day 90 first. The first-90-days version is designed with Growth at the start of next quarter, and until then Growth gets the check-in results every month.
+- **The social layer and daily streaks.** Both could lift engagement numbers in the short term. Both work against what people who feel well need: a private space and no daily pressure.
+- **Fable for Teams.** It could open new revenue. It needs a B2B sales motion this team does not have, and it pulls focus from the consumer problem we are solving.
+- **Full wearables.** Oura and the full Apple Health integration wait until people show they value the thin record.
+
+**How the decision was checked.** I scored the backlog with RICE, WSJF and a weighted scorecard, using assumed numbers. All three put the notification fix and the weekly check-in at or near the top. WSJF and the scorecard put the daily streak last. RICE ranked it high, because RICE counts reach and ignores strategy. The check added two things: a clear sequence, and a thin first version of the record, which is the largest job and the most likely to slip.
+
+**What would change our mind.** If the record does not lift premium retention at day 120 by at least 5 points against a comparison group by 31 March 2027, we stop building it and move its engineers to onboarding. The numbers are in 04-financial-model/financial-model.md.
